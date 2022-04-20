@@ -5,6 +5,7 @@
     
 }
 
+
 .row-eq-height {
     display: -webkit-box;
     display: -webkit-flex;
@@ -58,6 +59,5 @@
         width: 80%;
     }
 }
-
 
 
