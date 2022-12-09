@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About</title>
+    <meta charset="utf-8">
+    <meta name="description" content="CSI443 Web site.  Text here shows up in the description listed in search engine results.">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Phil Duncan">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- See http://getbootstrap.com for detgails on how to use these libraries -->
+    <link rel="stylesheet" type="text/css" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+<!-- Below is the link to your custom style sheet. -->
+    <!-- link rel="stylesheet" href="../css/style.css" / -->
+
+<!-- Below is an Internal style that places a border around divs.  USE BORDERS DURING DEVELOPMENT TO SEE WHAT IS GOING ON
+TURN BORDERS OFF, TURN BORDERS OFF, REPEAT, TURN BORDERS OFF FOR PRODUCTION.  DO NOT LEAVE ANY UNSTYLED BORDERS TURNED ON WHEN YOU PUBLISH YOUR PAGE FOR PUBLIC ACCESS -->
+    <style>
+        body {
+            font-family: 'Bree Serif', serif;
+            font-size: 20px;
+            
+        }
+
+
+
+        a {
+            color: lightgoldenrodyellow;
+            background-color:navy;
+            border: 2px solid lightgoldenrodyellow;
+            padding: 5px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        a:hover {
+            color: navy;
+            background-color: lightgoldenrodyellow
+        }
+
+        .container-fluid {
+            width: 100%;
+            background: white;
+            padding: 1em;
+            /* important */
+            display: flex;
+            /* important */
+            align-items: stretch;
+            justify-content: space-around;
+            color: navy;
+            border: double navy;
+        }
+
+        .row-fluid {
+            background-color: navy;
+            border: double navy;
+        }
+
+        #info {
+            color: lightgoldenrodyellow;
+            background-color:navy;
+            border: 2px solid black;
+            padding: 5px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border: double navy;
+        }
+
+
+        @media only screen and (min-width: 100px) {
+            /* For tablets: */
+
+            /* this will change the container class background to red when tablet*/
+
+            .col {
+                background-color: lavenderblush;
+            }
+        }
+
+        @media only screen and (min-width: 768px) {
+            /* For desktop: will change the container class to orange*/
+
+            .col {
+                background-color: lightgray;
+            }
+        }
+
+        @media only screen and (min-width: 992px) {
+            /* For desktop: will change the container class to orange*/
+
+            .col {
+                background-color: lavender;
+            }
+        }
+
+        @media only screen and (min-width: 1200px) {
+            /* For desktop: will change the container class to orange*/
+
+            .col {
+                background-color: lightgoldenrodyellow;
+                
+            }
+        }
+
+        Orientation of landscape
+
+        { @media only screen and (orientation: landscape) {
+            /* this will change the background to light blue when view is landscape */
+            
+            .col {
+                background-color: lightblue;
+            }
+        }
+        }
+    
+    </style>
+
+</head>
+<body>
+
+
+    <div class="container-fluid">
+
+            <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-12" id="info">
+                <img src="images/pic1.png" style="float:left; height:160px; width: 140px; margin:0px;">
+                <p><strong>
+                    Chantelle Hudspeth<br />
+                    chantelle.hudspeth at bellevue college dot edu
+                </strong></p>
+               
+            </div><!-- port 1-->
+
+            <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-12">
+                <p>
+                    <span class="strong"><strong>Bio</strong><br /></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div> <!-- port 2-->
+
+            <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-12 hidden-xs hidden-sm">
+                <strong>Education</strong><br />
+                Information Systems AAS-T, 2022 <br /> <br />
+                BAS Software Development, Expected 2024
+               
+                
+            </div> <!--land 3-->
+
+            <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-12 hidden-xs hidden-sm">
+                <strong>Experience</strong><br />
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div><!-- land 3-->
+            
+
+
+            <div class="row-fluid">
+                <div class="col-sm-6 col-lg-6 hidden-sm hidden-md"><strong><a href='/individualproject'>Project Portfolio</a></strong></div>
+          
+                <div class="col-sm-6 col-lg-6 hidden-sm hidden-md"><strong><a href='/webresources'>Web Resources</a></strong></div>
+            </div>
+            
+
+        </div>
+
+</body>
+</html>
